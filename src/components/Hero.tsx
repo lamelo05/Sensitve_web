@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { Download, ArrowRight, Shield, Eye, Lock } from 'lucide-react';
 import HeroMockupCarousel from './HeroMockupCarousel';
 
-const wordVariants = {
+const wordVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
