@@ -90,7 +90,7 @@ export default function Hero() {
             transition={{ delay: 1.1, duration: 0.6 }}
           >
             <a
-              href="/sensitive-extension.zip"
+              href="/sensitive-release.zip"
               download
               id="hero-download-btn"
               className="flex items-center gap-3 px-7 py-4 rounded-2xl text-base font-bold text-white glow-btn"

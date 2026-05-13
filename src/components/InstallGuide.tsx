@@ -11,13 +11,13 @@ const steps = [
     desc: 'Click the button below to download the Sensitive extension as a ZIP file to your computer.',
     action: (
       <a
-        href="/sensitive-extension.zip"
+        href="/sensitive-release.zip"
         download
         id="install-download-btn"
         className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white glow-btn mt-3"
       >
         <Download className="w-4 h-4" />
-        Download sensitive-extension.zip
+        Download sensitive-release.zip
       </a>
     ),
   },
@@ -94,7 +94,7 @@ export default function InstallGuide() {
 
           {/* Primary download CTA at top of guide */}
           <a
-            href="/sensitive-extension.zip"
+            href="/sensitive-release.zip"
             download
             id="guide-top-download-btn"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-base font-bold text-white glow-btn"

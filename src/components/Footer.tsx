@@ -50,7 +50,7 @@ export default function Footer() {
               Free forever. No account. No tracking. Just protection.
             </p>
             <motion.a
-              href="/sensitive-extension.zip"
+              href="/sensitive-release.zip"
               download
               id="footer-download-btn"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-white glow-btn"

@@ -56,7 +56,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="/sensitive-extension.zip"
+          href="/sensitive-release.zip"
           download
           className="hidden md:flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white glow-btn"
         >
@@ -93,7 +93,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/sensitive-extension.zip"
+            href="/sensitive-release.zip"
             download
             className="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white glow-btn justify-center mt-2"
           >
