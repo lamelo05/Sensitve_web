@@ -2,14 +2,34 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sensitve.onrender.com'),
   title: 'Sensitive — Privacy-First Content Blocker for Chrome',
   description:
     'Sensitive is a free Chrome extension that blocks explicit content using AI detection, a PIN-protected bypass, and positive alternatives. Install in under 2 minutes.',
-  keywords: ['content blocker', 'chrome extension', 'explicit content filter', 'privacy', 'parental control', 'NSFW blocker'],
+  keywords: ['content blocker', 'chrome extension', 'explicit content filter', 'privacy', 'parental control', 'NSFW blocker', 'sensitive extension'],
+  alternates: {
+    canonical: 'https://sensitve.onrender.com',
+  },
   openGraph: {
     title: 'Sensitive — Privacy-First Content Blocker',
     description: 'Block explicit content with AI. Pin-protected. Zero data collected.',
+    url: 'https://sensitve.onrender.com',
+    siteName: 'Sensitive',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sensitive — Privacy-First Content Blocker',
+    description: 'Block explicit content with AI. Pin-protected. Zero data collected.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
