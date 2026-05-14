@@ -3,6 +3,9 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sensitve.onrender.com'),
+  verification: {
+    google: 'N3NiM92eLXxOVeTR6zc0fEII3pb2wKgqNfD1zacLuMs',
+  },
   title: 'Sensitive — Privacy-First Content Blocker for Chrome',
   description:
     'Sensitive is a free Chrome extension that blocks explicit content using AI detection, a PIN-protected bypass, and positive alternatives. Install in under 2 minutes.',
